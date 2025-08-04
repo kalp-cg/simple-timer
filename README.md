@@ -1,39 +1,35 @@
-# React + Vite Template
+# 🕒 Timer & Stopwatch App
 
-A modern React template for web applications and games, featuring React 18, Vite, TailwindCSS, and Material UI.
+This is a simple yet functional **Timer & Stopwatch** web application built with a clean user interface and core time-tracking features. It includes:
 
-## Project Structure
+- A **Stopwatch** mode with start, reset, and lap/record functionalities.
+- A **Custom Timer** mode where users can set any specific time (e.g., 1 hour, 30 minutes) and countdown begins.
 
-```
-├── src/
-│   ├── App.jsx          # Main application component
-│   ├── main.jsx         # Application entry point
-│   └── index.css        # Global styles (Tailwind)
-├── public/              # Static assets
-├── index.html           # HTML template
-├── vite.config.js       # Vite configuration
-├── tailwind.config.js   # Tailwind configuration
-├── postcss.config.js    # PostCSS configuration
-└── eslint.config.js     # ESLint configuration
-```
+---
 
-## Development Guidelines
+## 🚀 Features
 
-- Modify `index.html` and `src/App.jsx` as needed
-- Create new folders or files in `src/` directory as needed
-- Style components using TailwindCSS utility classes
-- Avoid modifying `src/main.jsx` and `src/index.css`
-- Only modify `vite.config.js` if absolutely necessary
+### ✅ Stopwatch Mode
+- Start, pause, and reset the timer
+- Record lap times (laps are shown in a list)
 
-## Available Scripts
-- `pnpm install` - Install dependencies
-- `pnpm run dev` - Start development server
-- `pnpm run lint` - Lint source files
+### ⏳ Timer Mode
+- Set a custom time (e.g., 1 hour, 45 mins)
+- Start and reset countdown
+- Optionally, alert when the timer ends
 
-## Tech Stack
+---
 
-- React
-- Vite
-- TailwindCSS
-- ESLint
-- Javascript
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📦 How to Use
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/timer-stopwatch-app.git
+cd timer-stopwatch-app
